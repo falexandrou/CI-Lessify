@@ -16,7 +16,7 @@ Using the Library
 ### Lessify a directory and return contents
     $this->lessify->directory('css/less');
     
-### Lessify a directory and return contents
+### Lessify a directory and save the contents
     $this->lessify->directory('css/less', 'css/main.css');
     
 Note: For the directory functions, files must have the .less extension.
